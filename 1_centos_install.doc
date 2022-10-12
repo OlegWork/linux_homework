@@ -1,0 +1,14 @@
+Tasks:
+
+Install latest CentOS 7 distribution on hypervisor of your choosing.
+Configure user "Name_Surname" during installation (substitute Name and Surname with your credentials).
+Configure network during installation.
+Configure custom sizes for "/home", "/opt", "/var" directories during installation.
+Self-review:
+
+You are able to login into VM using user "Name_Surname".
+You are able to access internet from your VM.
+Command "df -h" in terminal reflects the sizes you set for "/home", "/opt", "/var" directories.
+Helpful materials:
+
+https://docs.centos.org/en-US/centos/install-guide/Simple_Installation/
