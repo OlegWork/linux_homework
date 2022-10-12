@@ -1,0 +1,21 @@
+Open terminal of your choosing.
+Using text editor of your choosing create two files named script and script.sh both with the following content:
+#!/bin/bash
+
+echo Hello
+
+Make files executable by running chmod +x script script.sh command.
+Create a soft link called script_soft for file script.
+Create a hard link called script_hard for file script.sh.
+Execute both script_soft and script_hard files.
+Remove original files script and script.sh.
+Execute both script_soft and script_hard files.
+Remove all created files.
+Self-review:
+
+When executing files "Hello" message should be printed out into your terminal.
+After removing the original files, trying to execute soft link should print an error.
+Helpful materials:
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://medium.com/@307/hard-links-and-symbolic-links-a-comparison-7f2b56864cdd
