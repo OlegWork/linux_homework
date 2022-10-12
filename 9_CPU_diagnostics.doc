@@ -1,0 +1,10 @@
+Open terminal of your choosing.
+Using tools of your choosing inspect CPU usage in your system (top, htop, uptime).
+Find the number of CPU cores in your system.
+Find current CPU load.
+Find the process name that utilizes the most CPU.
+Helpful materials:
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://en.wikipedia.org/wiki/Load_(computing)#Other_system_performance_commands
+https://www.tecmint.com/12-top-command-examples-in-linux/
