@@ -1,0 +1,36 @@
+Open terminal of your choosing.
+List unit files available in your system.
+Install httpd using command yum install httpd.
+Start httpd service.
+Check httpd service status
+Restart httpd service.
+Enable httpd service. Verify that it is enabled.
+Create a script in your user's home directory named script.sh with the following content:
+#!/bin/bash
+sleep 1000
+
+Make the script executable.
+Create unit file called test.service that will be used for starting your script and place it where systemd will be able to use it.
+Start test service.
+Verify test service status.
+Self-review:
+
+After starting and enabling http service its status looks like this:
+● httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+   Active: active (running) since Tue 2020-12-22 12:43:16 UTC; 26min ago
+
+test service status looks like this:
+● test.service - 'test'
+   Loaded: loaded (/etc/systemd/system/test.service; static; vendor preset: disabled)
+   Active: active (running) since Tue 2020-12-22 13:12:37 UTC; 3s ago
+ Main PID: 226 (script.sh)
+   CGroup: /docker/9877a0d50dc4102c73f9c9edb9e4e8e94c5b9cf6e473455ec417a13c2d6aaaae/system.slice/test.service
+           ├─226 /bin/bash /root/script.sh
+           └─227 sleep 1000
+Dec 22 13:12:37 9877a0d50dc4 systemd[1]: Started 'test'.
+
+Helpful materials:
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-managing_services_with_systemd
