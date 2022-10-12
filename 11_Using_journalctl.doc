@@ -1,0 +1,16 @@
+Open terminal of your choosing.
+Install nginx service using commands yum install epel-release; yum install nginx.
+Start nginx service.
+Stop nginx service.
+Check nginx service logs.
+Introduce error to nginx startup by moving nginx config file using command mv /etc/nginx/nginx.conf ./
+Attempt to start nginx service.
+View only error entries in nginx logs.
+Self-review:
+
+You are able to view nginx logs.
+After moving config file nginx does not start and you are able to view the error message in the logs.
+Helpful materials:
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://www.linode.com/docs/guides/how-to-use-journalctl/
