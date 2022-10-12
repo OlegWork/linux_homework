@@ -1,0 +1,17 @@
+Setup 2 VMs: VM1 and VM2
+Install and start httpd service on VM1.
+Create file /var/www/html/index.html with the following content on VM1:
+Hello
+
+Configure VM2 to resolve name myserver.local to IP address of VM1.
+Using command curl -L myserver.local verify that you can access nginx server running on VM1 from VM2.
+Self-review:
+
+command curl -L myserver.local returns the following response:
+Hello
+
+Helpful materials:
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://www.tecmint.com/ip-command-examples/
+https://www.tecmint.com/setup-local-dns-using-etc-hosts-file-in-linux/
