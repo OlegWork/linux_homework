@@ -1,0 +1,9 @@
+Open terminal of your choosing.
+Using tools of your choosing inspect RAM usage in your system (free).
+Calculate total, free and cached RAM.
+Find the process name that consumes the most RAM.
+Helpful materials:
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://linuxize.com/post/free-command-in-linux/
+https://www.tecmint.com/12-top-command-examples-in-linux/
