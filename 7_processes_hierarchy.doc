@@ -1,0 +1,19 @@
+Open terminal of your choosing.
+Create a script called script.sh with the following content:
+#!/bin/bash
+
+sleep 5m
+
+Make the script executable and run it in background using command script.sh &
+Verify that your script is running in the background using jobs command.
+Inspect running processes in you sytem using top and ps commands.
+Find the PID of your script.
+Find command and user infrormation about your script.
+Self-review:
+
+The script is running.
+You are able to determine script's PID, user and command information.
+Helpful materials:
+
+https://linuxconfig.org/bash-scripting-tutorial-for-beginners
+https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/
